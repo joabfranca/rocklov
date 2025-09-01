@@ -11,7 +11,10 @@ Funcionalidade: Cadastro
 
         Dado que acesso a página de cadastro
         Quando submeto o meu cadastro completo
+            |nome       |email          |senha  |
+            |Joab Sousa |joab@gmail.com |1234   |
         Então sou redirecionado para o Dashboard
+        
     @tentativa_cadastro
     Cenario: Submeter cadastro sem o nome
 
